@@ -1,6 +1,6 @@
-let keysArray = [];
+const keysArray = [];
 document.addEventListener("keydown", function (event) {
-  let key = event.key;
+    const key = event.key;
 
   if (key.match(/^[\x20-\x7E]$/)) {
     // Check if the key pressed is a printable ASCII character
@@ -10,7 +10,7 @@ document.addEventListener("keydown", function (event) {
   }
 
   // join array items into a single string
-  let keysString = keysArray.join("");
+  const keysString = keysArray.join("");
 
   // display the resulting string in the h1 tag
   document.querySelector("#keyText").textContent = keysString;
