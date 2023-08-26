@@ -1,43 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-  <title>Display Key Presses</title>
-  <style>
-    body {
-      background-color: #282a36;
-      color: #f8f8f2;
-      font-family: 'Courier New', Courier, monospace;
-    }
-  
-    h1 {
-      font-size: 2.5em;
-      color: #8be9fd;
-    }
-  </style>
-</head>
-<body>
-  <h1 id="keyText"></h1>
-  <script>
-    var keysArray = [];
-
-    document.addEventListener('keydown', function(event) {
-      var key = event.key;
-
-      if (key.match(/^[\x20-\x7E]$/)) { // Check if the key pressed is a printable ASCII character
-        keysArray.push(key);
-      }
-      else if (key.toLowerCase() === 'backspace') {
-        keysArray.pop(); // remove last item from array if Backspace is pressed
-      }
-
-      // join array items into a single string
-      var keysString = keysArray.join('');
-
-      // display the resulting string in the h1 tag
-      document.querySelector('#keyText').textContent = keysString;
-    });
-  </script>
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Display Key Presses</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="keyText">Display Key Presses, PRESS ANY KEY</h1>
+    <script src="app.js">
+    </script>
+  </body>
 </html>
