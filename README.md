@@ -14,5 +14,3 @@ Notable back-end functionalities include:
 - Logs printable ASCII characters.
 - Erases the last applied character on hitting the 'Backspace' key.
 - Restricts acknowledgement of non-printable keys such as 'Control', 'Shift', 'F1-F12', etc.
-
-This project effectively embodies core web accessibility principles such as keyboard compatibility, dynamic content updates, and clear visual styling. By adhering to the WCAG 2.1 guidelines and principles, the tool ensures that it is inclusive and easily accessible to all users.
