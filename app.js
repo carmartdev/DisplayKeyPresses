@@ -11,7 +11,7 @@ document.addEventListener("keydown", function (event) {
 
   // join array items into a single string
   const keysString = keysArray.join("");
-
+  let formattedString = keysString.replace(/(if|else)/gi, '<span class="red">$&</span>');
   // display the resulting string in the h1 tag
-  document.querySelector("#keyText").textContent = keysString;
+  document.querySelector("#keyText").innerHTML = formattedString;
 });
