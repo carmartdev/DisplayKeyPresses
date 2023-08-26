@@ -1,6 +1,7 @@
 # Display Key Presses
 
-This is a simple, lightweight project.
+This is a "Key Listener Tool" that captures user keystrokes, processes them and displays them dynamically on a styled webpage in real-time.
+It's a simple and lightweight project.
 The project is developed with two distinct components:
 
 ## Front End:
