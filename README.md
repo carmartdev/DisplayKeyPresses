@@ -1,7 +1,6 @@
-# WCAG-compliant Key Listener Tool
+# Display Key Presses
 
-This is a simple, lightweight project, built with the aim of incorporating web accessibility principles following the WCAG 2.1 guidelines. 
-
+This is a simple, lightweight project.
 The project is developed with two distinct components:
 
 ## Front End:
